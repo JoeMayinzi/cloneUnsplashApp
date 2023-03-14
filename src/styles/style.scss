@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+.container-title {
+    font-size: 4em;
+    color: #051c33;
+    text-align: center;
+}
+
+input {
+    padding: 10px 15px;
+    font-size: 1em;
+    width: 50%;
+    background-color: #edeff0;
+    padding: 10px 15px;
+    border: 3px solid #d7dbdf;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchBtn{
+    background-color: #051c33;
+    padding: 14.5px 15px;
+    border: none !important;
+    color: white; 
+    border-radius: 0 5px 5px 0;
+}
+
+.disableBtn {
+    background-color: #fff !important;
+    padding: 14.5px 15px;
+    border: 1px solid #edeff0;
+    color: white; 
+    border-radius: 0 5px 5px 0;
+  
+}
+
+.search-title {
+    text-transform: capitalize;
+    font-size: 2em;
+    text-align: center;
+    color: #051c33;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+.link {
+    display: inline;
+    list-style: none;
+    color: #fff;
+    background-color: #051c33;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-img img {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* Spinner */
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 10px solid #051c33;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #051c33 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
